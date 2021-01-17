@@ -24,7 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CteleportTechAssignment.Application\CteleportTechAssignment.Application.csproj" />
-    <ProjectReference Include="..\CteleportTechAssignment.Business\CteleportTechAssignment.Application.csproj" />
     <ProjectReference Include="..\CteleportTechAssignment.Cache\CteleportTechAssignment.Cache.csproj" />
     <ProjectReference Include="..\CteleportTechAssignment.Core\CteleportTechAssignment.Core.csproj" />
   </ItemGroup>
