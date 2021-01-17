@@ -1,0 +1,243 @@
+2021-01-17T00:27:08.5458551+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T00:27:08.5645313+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T00:27:08.5646992+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T00:27:29.0199664+02:00 80000025-0000-f500-b63f-84710c7967bb [INF] Get Distance from Airport ALX and ALE (92c4f623)
+2021-01-17T00:27:30.4721821+02:00 80000025-0000-f500-b63f-84710c7967bb [INF] Returning 1701214.96 Miles. (d85ceaa5)
+2021-01-17T00:27:35.5867122+02:00 80000026-0000-f500-b63f-84710c7967bb [INF] Get Distance from Airport ALX and ALE (92c4f623)
+2021-01-17T00:27:35.5883063+02:00 80000026-0000-f500-b63f-84710c7967bb [INF] Returning 1701214.96 Miles. (d85ceaa5)
+2021-01-17T00:31:22.9308064+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T00:31:22.9690854+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T00:31:22.9692592+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T13:14:51.4850127+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T13:14:51.4961151+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T13:14:51.4962783+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T13:14:55.0058561+02:00 8000011d-0002-fa00-b63f-84710c7967bb [ERR] Connection ID ""18014398519682531612"", Request ID ""8000011d-0002-fa00-b63f-84710c7967bb"": An unhandled exception was thrown by the application. (bf316047)
+System.InvalidOperationException: Stack empty.
+   at System.Collections.Stack.Pop()
+   at System.Diagnostics.CorrelationManager.AsyncLocalStackWrapper.Pop()
+   at System.Diagnostics.CorrelationManager.StopLogicalOperation()
+   at Microsoft.Extensions.Logging.TraceSource.TraceSourceScope.Dispose()
+   at Microsoft.Extensions.Logging.Logger.Scope.Dispose()
+   at Microsoft.AspNetCore.Hosting.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-01-17T13:15:04.2074436+02:00 8000011e-0002-fa00-b63f-84710c7967bb [INF] Get Distance from Airport ALE and ALX (43d0b5cc)
+2021-01-17T13:15:05.4569678+02:00 8000011e-0002-fa00-b63f-84710c7967bb [INF] Returning 1701214.96 Miles. (d85ceaa5)
+2021-01-17T15:34:18.0243014+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T15:34:18.0684601+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T15:34:18.0687400+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T16:19:15.4614939+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T16:19:15.4682729+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T16:19:15.4684777+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T16:26:16.0699943+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T16:26:16.0779431+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T16:26:16.0781073+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T16:45:42.8214502+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T16:45:42.8291903+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T16:45:42.8293853+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T16:46:19.4703693+02:00 800001a8-0001-f000-b63f-84710c7967bb [INF] Get Distance from Airport ALX and ALE (92c4f623)
+2021-01-17T16:46:20.0670462+02:00 800001a8-0001-f000-b63f-84710c7967bb [INF] Returning 1701214.96 Miles. (d85ceaa5)
+2021-01-17T17:00:49.3837076+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T17:00:49.3914950+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T17:00:49.3917067+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T17:00:50.4537715+02:00 80000085-0002-fc00-b63f-84710c7967bb [INF] Get Distance from Airport ALX and ALE (92c4f623)
+2021-01-17T17:00:50.6750294+02:00 8000017f-0003-fe00-b63f-84710c7967bb [ERR] Connection ID ""18302628900129210750"", Request ID ""8000017f-0003-fe00-b63f-84710c7967bb"": An unhandled exception was thrown by the application. (bf316047)
+System.InvalidOperationException: Stack empty.
+   at System.Collections.Stack.Pop()
+   at System.Diagnostics.CorrelationManager.AsyncLocalStackWrapper.Pop()
+   at System.Diagnostics.CorrelationManager.StopLogicalOperation()
+   at Microsoft.Extensions.Logging.TraceSource.TraceSourceScope.Dispose()
+   at Microsoft.Extensions.Logging.Logger.Scope.Dispose()
+   at Microsoft.AspNetCore.Hosting.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-01-17T17:00:51.5936573+02:00 80000085-0002-fc00-b63f-84710c7967bb [INF] Returning 1701214.96 Miles. (d85ceaa5)
+2021-01-17T17:21:46.5876252+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T17:21:46.6145441+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T17:21:46.6147639+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T17:22:04.0731730+02:00 8000018c-0003-fe00-b63f-84710c7967bb [INF] Get Distance from Airport ALX and AMS (c5635163)
+2021-01-17T17:22:04.9104341+02:00 8000018c-0003-fe00-b63f-84710c7967bb [INF] Returning 7225435.26 Miles. (ca8150cc)
+2021-01-17T17:22:30.3609317+02:00 8000018d-0003-fe00-b63f-84710c7967bb [INF] Get Distance from Airport ALX and AMS (c5635163)
+2021-01-17T17:22:30.3788314+02:00 8000018d-0003-fe00-b63f-84710c7967bb [INF] Returning 7225435.26 Miles. (ca8150cc)
+2021-01-17T17:22:38.4630057+02:00 8000018e-0003-fe00-b63f-84710c7967bb [INF] Get Distance from Airport ALX and CAI (6279530a)
+2021-01-17T17:22:46.4292929+02:00 8000018e-0003-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> AirportDto
+System.Object -> CteleportTechAssignment.Core.dtos.AirportDto
+   at lambda_method62(Closure , Object , AirportDto , ResolutionContext )
+   at CteleportTechAssignment.Application.AirportService.GetAsync(String Code) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 82
+   at CteleportTechAssignment.Application.AirportService.GetAirports(String FromAirportCode, String ToAirportCode) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 64
+   at CteleportTechAssignment.Application.AirportService.CalculateDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 42
+   at CteleportTechAssignment.Controllers.AirportController.GetDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment\Controllers\AirportController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-01-17T17:22:46.4492602+02:00 8000018e-0003-fe00-b63f-84710c7967bb [ERR] Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> AirportDto
+System.Object -> CteleportTechAssignment.Core.dtos.AirportDto
+   at lambda_method62(Closure , Object , AirportDto , ResolutionContext )
+   at CteleportTechAssignment.Application.AirportService.GetAsync(String Code) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 82
+   at CteleportTechAssignment.Application.AirportService.GetAirports(String FromAirportCode, String ToAirportCode) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 64
+   at CteleportTechAssignment.Application.AirportService.CalculateDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 42
+   at CteleportTechAssignment.Controllers.AirportController.GetDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment\Controllers\AirportController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task) (23b6ee7b)
+2021-01-17T17:23:13.4475153+02:00 8000018f-0003-fe00-b63f-84710c7967bb [INF] Get Distance from Airport ALX and CAI (6279530a)
+2021-01-17T17:23:57.8232681+02:00 8000018f-0003-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> AirportDto
+System.Object -> CteleportTechAssignment.Core.dtos.AirportDto
+   at lambda_method62(Closure , Object , AirportDto , ResolutionContext )
+   at CteleportTechAssignment.Application.AirportService.GetAsync(String Code) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 82
+   at CteleportTechAssignment.Application.AirportService.GetAirports(String FromAirportCode, String ToAirportCode) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 64
+   at CteleportTechAssignment.Application.AirportService.CalculateDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 42
+   at CteleportTechAssignment.Controllers.AirportController.GetDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment\Controllers\AirportController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-01-17T17:23:57.8247217+02:00 8000018f-0003-fe00-b63f-84710c7967bb [ERR] Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> AirportDto
+System.Object -> CteleportTechAssignment.Core.dtos.AirportDto
+   at lambda_method62(Closure , Object , AirportDto , ResolutionContext )
+   at CteleportTechAssignment.Application.AirportService.GetAsync(String Code) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 82
+   at CteleportTechAssignment.Application.AirportService.GetAirports(String FromAirportCode, String ToAirportCode) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 64
+   at CteleportTechAssignment.Application.AirportService.CalculateDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 42
+   at CteleportTechAssignment.Controllers.AirportController.GetDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment\Controllers\AirportController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task) (23b6ee7b)
+2021-01-17T17:26:37.5385363+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T17:26:37.5475166+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T17:26:37.5476755+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T17:26:51.6099397+02:00 80000193-0003-fe00-b63f-84710c7967bb [INF] Get Distance from Airport ALX and CAI (6279530a)
+2021-01-17T17:27:12.0930528+02:00 80000193-0003-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> AirportDto
+System.Object -> CteleportTechAssignment.Core.dtos.AirportDto
+   at lambda_method36(Closure , Object , AirportDto , ResolutionContext )
+   at CteleportTechAssignment.Application.AirportService.GetAsync(String Code) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 82
+   at CteleportTechAssignment.Application.AirportService.GetAirports(String FromAirportCode, String ToAirportCode) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 64
+   at CteleportTechAssignment.Application.AirportService.CalculateDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 42
+   at CteleportTechAssignment.Controllers.AirportController.GetDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment\Controllers\AirportController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-01-17T17:27:12.1091183+02:00 80000193-0003-fe00-b63f-84710c7967bb [ERR] Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> AirportDto
+System.Object -> CteleportTechAssignment.Core.dtos.AirportDto
+   at lambda_method36(Closure , Object , AirportDto , ResolutionContext )
+   at CteleportTechAssignment.Application.AirportService.GetAsync(String Code) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 82
+   at CteleportTechAssignment.Application.AirportService.GetAirports(String FromAirportCode, String ToAirportCode) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 64
+   at CteleportTechAssignment.Application.AirportService.CalculateDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment.Application\Services\AirportService.cs:line 42
+   at CteleportTechAssignment.Controllers.AirportController.GetDistance(DistanceInputDto inputDto) in C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment\Controllers\AirportController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task) (5c50cb93)
+2021-01-17T17:31:15.5191922+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T17:31:15.5259319+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T17:31:15.5261489+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T17:31:28.2093880+02:00 8000016b-0002-fa00-b63f-84710c7967bb [INF] Get Distance from Airport ALX and CAI (6279530a)
+2021-01-17T17:31:51.8528365+02:00 8000016b-0002-fa00-b63f-84710c7967bb [INF] Returning 10404029.65 Miles. (281f4fb4)
+2021-01-17T17:31:57.2647763+02:00 8000016c-0002-fa00-b63f-84710c7967bb [INF] Get Distance from Airport ALX and CAI (6279530a)
+2021-01-17T17:31:57.2724589+02:00 8000016c-0002-fa00-b63f-84710c7967bb [INF] Returning 10404029.65 Miles. (281f4fb4)
+2021-01-17T17:32:04.0832431+02:00 8000016d-0002-fa00-b63f-84710c7967bb [INF] Get Distance from Airport ALX and CAT (34777703)
+2021-01-17T17:32:06.9901318+02:00 8000016d-0002-fa00-b63f-84710c7967bb [INF] Returning 6736833.95 Miles. (12158773)
+2021-01-17T19:26:32.7203364+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T19:26:32.7442951+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T19:26:32.7445250+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T19:33:01.0651185+02:00 8000003e-0000-f500-b63f-84710c7967bb [INF] Get Distance from Airport ALX and CAT (34777703)
+2021-01-17T19:33:01.7458870+02:00 8000003e-0000-f500-b63f-84710c7967bb [INF] Returning 6736833.95 Miles. (12158773)
+2021-01-17T19:33:28.3629855+02:00 80000040-0000-f500-b63f-84710c7967bb [INF] Get Distance from Airport ALX and qqq (c3a01848)
+2021-01-17T19:33:29.5868391+02:00 80000040-0000-f500-b63f-84710c7967bb [INF] Returning 0 Miles. (37439514)
+2021-01-17T19:36:22.6136498+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T19:36:22.6205693+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T19:36:22.6207522+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T19:36:38.9950406+02:00 8000004c-0002-fd00-b63f-84710c7967bb [INF] Get Distance from Airport ALX and qqq (c3a01848)
+2021-01-17T19:36:40.9055624+02:00 8000004c-0002-fd00-b63f-84710c7967bb [INF] Returning 0 Miles. (37439514)
+2021-01-17T19:36:51.8799476+02:00 8000004d-0002-fd00-b63f-84710c7967bb [INF] Get Distance from Airport cvX and qqq (199c744e)
+2021-01-17T19:36:53.4868600+02:00 8000004d-0002-fd00-b63f-84710c7967bb [INF] Returning 0 Miles. (37439514)
+2021-01-17T20:04:23.7096519+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T20:04:23.7179908+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T20:04:23.7181304+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T20:04:35.8749116+02:00 8000020d-0001-f000-b63f-84710c7967bb [INF] Get Distance from Airport cvX and qqq (199c744e)
+2021-01-17T20:04:37.5753724+02:00 8000020d-0001-f000-b63f-84710c7967bb [INF] Returning 0 Miles. (37439514)
+2021-01-17T20:06:40.9347665+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-17T20:06:40.9416045+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-17T20:06:40.9417505+02:00  [INF] Content root path: "C:\Users\mahmoud.fadel\source\repos\CteleportTechAssignment\CteleportTechAssignment" (b5d60022)
+2021-01-17T20:06:46.5770643+02:00 80000088-0001-ee00-b63f-84710c7967bb [INF] Get Distance from Airport cvX and qqq (199c744e)
+2021-01-17T20:06:48.2526514+02:00 80000088-0001-ee00-b63f-84710c7967bb [INF] Returning 0 Miles. (37439514)
+2021-01-17T20:07:01.7354766+02:00 80000089-0001-ee00-b63f-84710c7967bb [INF] Get Distance from Airport ALE and ALX (43d0b5cc)
+2021-01-17T20:07:01.9656135+02:00 80000089-0001-ee00-b63f-84710c7967bb [INF] Returning 1701214.96 Miles. (d85ceaa5)
+2021-01-17T20:25:37.3455967+02:00 8000008e-0001-ee00-b63f-84710c7967bb [INF] Get Distance from Airport ALE and ALX (43d0b5cc)
+2021-01-17T20:25:37.3812327+02:00 8000008e-0001-ee00-b63f-84710c7967bb [INF] Returning 1701214.96 Miles. (d85ceaa5)
