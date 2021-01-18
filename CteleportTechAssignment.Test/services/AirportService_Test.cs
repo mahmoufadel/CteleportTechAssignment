@@ -71,6 +71,24 @@ namespace CteleportTechAssignment.Test
 		}
 		#endregion
 
+		#region Get Airports
 
+		[Test]
+		public async Task GetAirports_Test()
+		{
+			var input = new DistanceInputDto { FromAirportCode = "ALX", ToAirportCode = "ALE" };
+			var airports = await _airportService.GetAirports(input.FromAirportCode,input.ToAirportCode);
+			Assert.AreEqual(airports.FromAirport.iata, input.FromAirportCode);
+		}
+
+		[Test]
+		public async Task GetAirports_NotFound_Test()
+		{
+			var input = new DistanceInputDto { FromAirportCode = "AOA", ToAirportCode = "ALE" };
+			var airports = await _airportService.GetAirports(input.FromAirportCode, input.ToAirportCode);
+			Assert.AreEqual(airports.FromAirport.Errors.Count,1);
+		}
+
+		#endregion
 	}
 }

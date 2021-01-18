@@ -46,9 +46,12 @@ namespace CteleportTechAssignment.Application
 
 			if (this.ValidateReports(Airports))
 			{
-				var distanceResult = new DistanceOutputDto { FromAirportCode = _fromAirportCode, ToAirportCode = _toAirportCode };
-				distanceResult.Distance = Airports.FromAirport.location.CalculateDistanceTo(Airports.ToAirport.location);
-
+				var distanceResult = new DistanceOutputDto
+				{
+					FromAirportCode = _fromAirportCode,
+					ToAirportCode = _toAirportCode,
+					Distance = Airports.FromAirport.location.CalculateDistanceTo(Airports.ToAirport.location)
+				};				
 				_cacheService.Current().Add<DistanceOutputDto>(cacheKey, distanceResult);
 				return distanceResult;
 			}
@@ -57,7 +60,7 @@ namespace CteleportTechAssignment.Application
 		}
 
 		/// <summary>
-		/// Get 2 Airports to calc distance between them .
+		/// Get 2 Airports to calc distance between them async in one call with [whenALL].
 		/// </summary>
 		/// <param name="FromAirportCode"></param>
 		/// <param name="ToAirportCode"></param>
