@@ -21,7 +21,7 @@ namespace CteleportTechAssignment.Test
 		{
 			_airportService = (IAirportService)nUnitSetup._server.Services.GetService(typeof(IAirportService));
 		}
-
+		#region Get Distance
 		[Test]
 		public async Task Get0Distance_Test()
 		{
@@ -38,6 +38,8 @@ namespace CteleportTechAssignment.Test
 			Assert.AreEqual(distanceOutputDto.Distance, 1701214.96);
 		}
 
+		#endregion
+
 		#region GetAsync
 		[Test]
 		public async Task GetAsync_Test()
@@ -52,7 +54,7 @@ namespace CteleportTechAssignment.Test
 		{
 			var code = "AL";
 			var airport = await _airportService.GetAsync(code);
-			Assert.AreEqual(airport.Errors.FirstOrDefault().StatusCode, HttpStatusCode.NotFound);
+			Assert.AreEqual(airport.Errors.FirstOrDefault().StatusCode, (int)HttpStatusCode.NotFound);
 		}
 
 		[Test]
@@ -60,14 +62,14 @@ namespace CteleportTechAssignment.Test
 		{
 			var code = "123";
 			var airport = await _airportService.GetAsync(code);
-			Assert.AreEqual(airport.Errors.FirstOrDefault().StatusCode, HttpStatusCode.NotFound);
+			Assert.AreEqual(airport.Errors.FirstOrDefault().StatusCode, (int)HttpStatusCode.NotFound);
 		}
 		[Test]
 		public async Task GetAsync_NotFound_Test()
 		{
 			var code = "EEE";
 			var airport = await _airportService.GetAsync(code);
-			Assert.AreEqual(airport.Errors.FirstOrDefault().StatusCode, HttpStatusCode.NotFound);
+			Assert.AreEqual(airport.Errors.FirstOrDefault().StatusCode, (int)HttpStatusCode.NotFound);
 		}
 		#endregion
 

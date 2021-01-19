@@ -72,7 +72,7 @@ namespace CteleportTechAssignment.Application
 			var FromAirportTask = this.GetAsync(FromAirportCode);
 			var ToAirportTask = this.GetAsync(ToAirportCode);
 
-			//Call both tasks on the same time 
+			//Call both tasks on the same time Async
 			await Task.WhenAll(FromAirportTask, ToAirportTask);
 
 			AirportDto FromAirport = await FromAirportTask;

@@ -23,9 +23,7 @@ namespace CteleportTechAssignment.Test
 					.AddJsonFile("appsettings.Testing.json")
 					.Build()
 				)
-				.UseStartup<TestStartup>());
-
-			//APIMockService
+				.UseStartup<TestStartup>());			
 		}
 
 		[OneTimeTearDown]
